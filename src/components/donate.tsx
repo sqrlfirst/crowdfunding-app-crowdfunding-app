@@ -31,7 +31,7 @@ export function Donate() {
     return (
         <form onSubmit={submit}>
             <input name="value" placeholder="0.05 ETH" required type="text" />
-            <button disabled={isPending} type="submit" class="button">
+            <button disabled={isPending} type="submit" className="button">
                 {isPending ? "Confirming..." : "Donate"}{" "}
             </button>
             {hash && <div>Transaction Hash: {hash}</div>}

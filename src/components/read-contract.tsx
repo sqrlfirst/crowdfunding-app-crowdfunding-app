@@ -39,12 +39,12 @@ export function ReadContract() {
 
         return (
             <>
-                <div class="container">
-                    <div class="text_block">
+                <div className="container">
+                    <div className="text_block">
                         Deadline is: {date.toDateString()}
                     </div>
-                    <div class="text_block">Goal is: {value} Ether</div>
-                    <div class="text_block"> {whatIsWithTheGoal}</div>
+                    <div className="text_block">Goal is: {value} Ether</div>
+                    <div className="text_block"> {whatIsWithTheGoal}</div>
                 </div>
             </>
         );
